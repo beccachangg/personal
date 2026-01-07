@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Rebecca Chang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html" class="name-link">rebecca chang</a>
+        </div>
+        <div class="nav-right">
+            <a href="index.html">about</a>
+            <a href="resume.html" class="active">resume</a>
+            <a href="coursework.html">coursework</a>
+            <button class="theme-toggle">
+                <svg class="sun-icon" height="20" width="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+                <svg class="moon-icon" height="20" width="20" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <main class="resume-page">
+        <div class="resume-header">
+            <h1>Resume</h1>
+            <a href="Chang, Rebecca - Resume - EE.pdf" class="pdf-link" download>
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                </svg>
+            </a>
+        </div>
+
+        <section class="resume-section">
+            <h2>Education</h2>
+            <div class="resume-item">
+                <div class="date-badge">2022-2026</div>
+                <div class="resume-content">
+                    <h3>UC Berkeley</h3>
+                    <p class="subtitle">B.S. in Electrical Engineering and Computer Science</p>
+                    <div class="details">
+                        <p><strong>Clubs</strong></p>
+                        <ul>
+                            <li>CALICO Informatics Competition</li>
+                            <li>Society of Women Engineers</li>
+                            <li>alpha Kappa Delta Phi</li>
+                        </ul>
+                        <p><strong>Coursework</strong></p>
+                        <ul>
+                            <li>Designing Information Devices and Systems I and II (EECS 16A + EECS 16B), Data Structures (CS 61B), Computer Architecture (CS 61C), Introduction to Artificial Intelligence (CS 188), Programming Languages and Compilers (CS 164), Introduction to Software Engineering (CS 169A)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2>Experience</h2>
+            
+            <div class="resume-item">
+                <div class="date-badge green">AUG 2024 - PRESENT</div>
+                <div class="resume-content">
+                    <h3>The Black Sheep</h3>
+                    <p class="subtitle">Student Ambassador</p>
+                    <ul class="experience-list">
+                        <li>Represented Ace Berkeley and Xučyun Runway Apartments at community events / university functions / housing fairs while implementing innovative social media campaigns that showcase the properties' unique features and community.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-item">
+                <div class="date-badge blue">JAN 2025 - FEB 2025</div>
+                <div class="resume-content">
+                    <h3>Center for Social Dynamics</h3>
+                    <p class="subtitle">Behavior Specialist</p>
+                    <ul class="experience-list">
+                        <li>Implemented individualized treatment plans using Applied Behavior Analysis (ABA) therapy to help clients develop essential skills and reduce challenging behaviors.</li>
+                        <li>I worked directly with children, adolescents, and their families to create supportive environments that foster growth, independence, and positive behavioral change.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-item">
+                <div class="date-badge blue">MAY 2024 - OCT 2024</div>
+                <div class="resume-content">
+                    <h3>The Coder School</h3>
+                    <p class="subtitle">Code Coach</p>
+                    <ul class="experience-list">
+                        <li>Teaching classes (10+ students) that introduce Python and Web Development.</li>
+                        <li>Working with multiple students individually to help motivate and improve their critical thinking skills.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-item">
+                <div class="date-badge blue">OCT 2023 - AUG 2024</div>
+                <div class="resume-content">
+                    <h3>OnCampus Advertising</h3>
+                    <p class="subtitle">Brand Ambassador</p>
+                    <ul class="experience-list">
+                        <li>Collaborating with brands (including: Samsung, L'Oréal); I successfully engaged students from my campus and cultivated their interest in these brands' products.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2>Projects</h2>
+            
+            <div class="resume-item">
+                <div class="date-badge">DEC 2024</div>
+                <div class="resume-content">
+                    <h3><b>Treble Boost Audio Filter Design</b> - EECS 16B Course Project</h3>
+                    <ul class="experience-list">
+                        <li>Designed an active op-amp filter circuit achieving 10+ gain (21 dB) in 300 Hz - 15 kHz range through symbolic analysis and component selection (capacitors: 1000 pF, 100 nF; resistor: 5.1 kΩ).</li>
+                        <li>Validated design using LTSpice simulations and breadboard measurements, with cutoff frequencies within 10% of theoretical predictions.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-item">
+                <div class="date-badge">MAY 2024</div>
+                <div class="resume-content">
+                    <h3><b>Relational Database Management System (RookieDB)</b> - CS 186 Course Project</h3>
+                    <ul class="experience-list">
+                        <li>Implemented core DBMS components, including B+ tree indices, join algorithms (hash join, sort-merge join), query optimization with cost-based analysis, and ARIES-based crash recovery.</li>
+                        <li>Designed and optimized a multigranularity locking protocol for concurrent transaction execution, reducing query latency through efficient buffer management and eviction policies.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Add more projects as needed -->
+            
+        </section>
+    </main>
+</body>
+</html>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
